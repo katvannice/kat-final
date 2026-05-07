@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Circa 2003 | TV & Movies</title>
+    <link rel="stylesheet" href="./assets/css/shared-styles.css">
+    <link rel="stylesheet" href="./assets/css/page-1.css">
+</head>
+<body>
+
+    <!-- ICON NAV BAR -->
+    <div class="icon-nav">
+        <a href="page-1.html" class="icon">
+            <img src="./assets/img/bear-glitter.gif" alt="toys">
+            <span>toys</span>
+        </a>
+        <a href="page-2.html" class="icon">
+            <img src="./assets/img/tv-static.gif" alt="tv & movies">
+            <span>tv & movies</span>
+        </a>
+        <a href="page-3.html" class="icon">
+            <img src="./assets/img/music-glitter.gif" alt="music">
+            <span>music</span>
+        </a>
+        <a href="page-4.html" class="icon">
+            <img src="./assets/img/computer-glitter.gif" alt="internet & games">
+            <span>internet & games</span>
+        </a>
+        <a href="page-5.html" class="icon">
+            <img src="./assets/img/shirt-glitter.gif" alt="fashion">
+            <span>fashion</span>
+        </a>
+        <a href="page-6.html" class="icon">
+            <img src="./assets/img/book-glitter.gif" alt="books">
+            <span>books</span>
+        </a>
+        <a href="reflection.html" class="icon">
+            <img src="./assets/img/heart-glitter.gif" alt="reflection">
+            <span>reflection</span>
+        </a>
+    </div>
+
+<div class="ipod-player">
+    <img src="./assets/img/ipod-shuffle.png" 
+         alt="ipod shuffle" 
+         id="ipodBtn" 
+         onclick="togglePlay()">
+    <p id="song-title">the way i are - timbaland</p>
+    <audio id="audioPlayer">
+        <source src="./assets/audio/the-way-i-are.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+    <!-- ZIGZAG CONTENT -->
+    <div class="zigzag">
+
+<!-- ROW 1 - image left, text right -->
+<div class="zag-row">
+    <div class="zag-img">
+        <img src="./assets/memory/professor.jpg" alt="professor as bubbles">
+    </div>
+    <div class="xp-window">
+        <div class="xp-titlebar">
+            <span>🐾 memory.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i remember the rainy day episode where the professor dressed up as bubbles... his undies were showing and i lost my mind 😭🐾</p>
+        </div>
+    </div>
+</div>
+
+<!-- ROW 2 - text left, image right -->
+<div class="zag-row reverse">
+    <div class="xp-window">
+        <div class="xp-titlebar">
+            <span>🐾 memory.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i remember discovering the powerpunk girls and never recovering from it. i must've drawn them at least 50 times-</p>
+        </div>
+    </div>
+    <div class="zag-img">
+        <img src="./assets/memory/powerpunk.jpg" alt="powerpunk girls">
+    </div>
+</div>
+
+<!-- ROW 3 - image left, text right -->
+<div class="zag-row">
+    <div class="zag-img">
+        <img src="./assets/memory/coraline.jpg" alt="coraline">
+    </div>
+    <div class="xp-window">
+        <div class="xp-titlebar">
+            <span>🐾 memory.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i remember watching coraline dozens and dozens of times...</p><br>
+            <p>my dad noticed that i loved the movie so much that he named my little sister after her 🥹</p>
+        </div>
+    </div>
+</div>
+
+<!-- ROW 4 - text left, image right -->
+<div class="zag-row reverse">
+    <div class="xp-window">
+        <div class="xp-titlebar">
+            <span>🐾 memory.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i remember being absolutely TERRIFIED of the luna ghost in the 2002 scooby doo movie... </p><br>
+            <p>a glowing white jester had NO business being that scary in a kids movie 😭</p>
+        </div>
+    </div>
+    <div class="zag-img">
+        <img src="./assets/memory/luna-ghost.jpg" alt="luna ghost">
+    </div>
+</div>
+
+    </div>
+
+
+    <!-- TASKBAR -->
+    <div class="taskbar">
+        <button class="start-btn">⊞ Start</button>
+        <span class="clock" id="clock"></span>
+    </div>
+
+
+    <script src="./assets/js/shared.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Circa 2003 | Reflection</title>
+    <link rel="stylesheet" href="./assets/css/shared-styles.css">
+    <link rel="stylesheet" href="./assets/css/reflection.css">
+</head>
+<body>
+
+    <!-- ICON NAV BAR -->
+    <div class="icon-nav">
+        <a href="page-1.html" class="icon">
+            <img src="./assets/img/bear-glitter.gif" alt="toys">
+            <span>toys</span>
+        </a>
+        <a href="page-2.html" class="icon">
+            <img src="./assets/img/tv-static.gif" alt="tv & movies">
+            <span>tv & movies</span>
+        </a>
+        <a href="page-3.html" class="icon">
+            <img src="./assets/img/music-glitter.gif" alt="music">
+            <span>music</span>
+        </a>
+        <a href="page-4.html" class="icon">
+            <img src="./assets/img/computer-glitter.gif" alt="internet & games">
+            <span>internet & games</span>
+        </a>
+        <a href="page-5.html" class="icon">
+            <img src="./assets/img/shirt-glitter.gif" alt="fashion">
+            <span>fashion</span>
+        </a>
+        <a href="page-6.html" class="icon">
+            <img src="./assets/img/book-glitter.gif" alt="books">
+            <span>books</span>
+        </a>
+        <a href="reflection.html" class="icon">
+            <img src="./assets/img/heart-glitter.gif" alt="reflection">
+            <span>reflection</span>
+        </a>
+    </div>
+
+    <!-- POPUP 1 - upper left -->
+    <div class="xp-window" id="popup1" style="position: fixed; top: 20%; left: 50%; transform: translateX(-50%);">
+        <div class="xp-titlebar">
+            <span>🐾 message.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>thanks for visiting circa 2003 🐾</p>
+        </div>
+        <div class="xp-footer">
+            <button onclick="nextPopup()">OK</button>
+        </div>
+    </div>
+
+    <!-- POPUP 2 - center left -->
+    <div class="xp-window" id="popup2" style="position: fixed; top: 20%; left: 50%; transform: translateX(-50%); display: none;">
+        <div class="xp-titlebar">
+            <span>🐾 message.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i sat in toy boxes, chewed dolls, and danced alone in living rooms 😭🐾</p>
+        </div>
+        <div class="xp-footer">
+            <button onclick="nextPopup()">OK</button>
+        </div>
+    </div>
+
+    <!-- POPUP 3 - center right -->
+    <div class="xp-window" id="popup3" style="position: fixed; top: 20%; left: 50%; transform: translateX(-50%); display: none;">
+        <div class="xp-titlebar">
+            <span>🐾 message.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i was chaotic, sensory, and completely unhinged 🤣🐾</p>
+        </div>
+        <div class="xp-footer">
+            <button onclick="nextPopup()">OK</button>
+        </div>
+    </div>
+
+    <!-- POPUP 4 - lower left -->
+    <div class="xp-window" id="popup4" style="position: fixed; top: 20%; left: 50%; transform: translateX(-50%); display: none;">
+        <div class="xp-titlebar">
+            <span>🐾 message.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>and somehow all of it made me who i am today 🥲🐾</p>
+        </div>
+        <div class="xp-footer">
+            <button onclick="nextPopup()">OK</button>
+        </div>
+    </div>
+
+<!-- POPUP 5 - final line -->
+<div class="xp-window" id="popup5" style="position: fixed; top: 20%; left: 50%; transform: translateX(-50%); display: none;">
+    <div class="xp-titlebar">
+        <span>🐾 message.exe</span>
+        <div class="xp-buttons">
+            <button>─</button>
+            <button>□</button>
+            <button>✕</button>
+        </div>
+    </div>
+    <div class="xp-body final-line">
+        <p>cringey or not... it's mine 🥹✨</p>
+    </div>
+    <div class="xp-footer">
+        <button onclick="window.location.href='homepage.html'">OK</button>
+    </div>
+</div>
+    </div>
+
+    <!-- TASKBAR -->
+    <div class="taskbar">
+        <button class="start-btn">⊞ Start</button>
+        <span class="clock" id="clock"></span>
+    </div>
+
+    <script src="./assets/js/shared.js"></script>
+    <script src="./assets/js/reflection.js"></script>
+</body>
+</html>

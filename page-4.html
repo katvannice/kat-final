@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Circa 2003 | Internet & Games</title>
+    <link rel="stylesheet" href="./assets/css/shared-styles.css">
+    <link rel="stylesheet" href="./assets/css/page-1.css">
+</head>
+<body>
+
+    <!-- ICON NAV BAR -->
+    <div class="icon-nav">
+        <a href="page-1.html" class="icon">
+            <img src="./assets/img/bear-glitter.gif" alt="toys">
+            <span>toys</span>
+        </a>
+        <a href="page-2.html" class="icon">
+            <img src="./assets/img/tv-static.gif" alt="tv & movies">
+            <span>tv & movies</span>
+        </a>
+        <a href="page-3.html" class="icon">
+            <img src="./assets/img/music-glitter.gif" alt="music">
+            <span>music</span>
+        </a>
+        <a href="page-4.html" class="icon">
+            <img src="./assets/img/computer-glitter.gif" alt="internet & games">
+            <span>internet & games</span>
+        </a>
+        <a href="page-5.html" class="icon">
+            <img src="./assets/img/shirt-glitter.gif" alt="fashion">
+            <span>fashion</span>
+        </a>
+        <a href="page-6.html" class="icon">
+            <img src="./assets/img/book-glitter.gif" alt="books">
+            <span>books</span>
+        </a>
+        <a href="reflection.html" class="icon">
+            <img src="./assets/img/heart-glitter.gif" alt="reflection">
+            <span>reflection</span>
+        </a>
+    </div>
+
+<div class="ipod-player">
+    <img src="./assets/img/ipod-shuffle.png" 
+         alt="ipod shuffle" 
+         id="ipodBtn" 
+         onclick="togglePlay()">
+    <p id="song-title">blow - kesha</p>
+    <audio id="audioPlayer">
+        <source src="./assets/audio/blow.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+    <!-- ZIGZAG CONTENT -->
+    <div class="zigzag">
+
+<!-- ROW 1 - image left, text right -->
+<div class="zag-row">
+    <div class="zag-img">
+        <img src="./assets/memory/igirlsgames.jpg" alt="igirls games">
+    </div>
+    <div class="xp-window">
+        <div class="xp-titlebar">
+            <span>🐾 memory.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i remember playing all sorts of dress up games on igirlsgames...</p><br>
+            <p>i remember dressing them up all wrong, ruining their date, and not caring at all 😺</p>
+        </div>
+    </div>
+</div>
+
+<!-- ROW 2 - text left, image right -->
+<div class="zag-row reverse">
+    <div class="xp-window">
+        <div class="xp-titlebar">
+            <span>🐾 memory.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i remember having animal crossing on every single system...</p><br>
+            <p>and staying up way too late waiting for my house renovation before i discovered time skipping 😼</p>
+        </div>
+    </div>
+    <div class="zag-img">
+        <img src="./assets/memory/acww.png" alt="animal crossing wild world">
+    </div>
+</div>
+
+<!-- ROW 3 - image left, text right -->
+<div class="zag-row">
+    <div class="zag-img">
+        <img src="./assets/memory/mario.gif" alt="lakitu holding sign">
+    </div>
+    <div class="xp-window">
+        <div class="xp-titlebar">
+            <span>🐾 memory.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i remember raging on mario kart and going the wrong way for five minutes when I was in last place</p><br>
+            <p>lakitu held that turn around sign while i drove the wrong way... </p><br>
+            <p>get wrecked 😝</p>
+        </div>
+    </div>
+</div>
+
+<!-- ROW 4 - text left, image right -->
+<div class="zag-row reverse">
+    <div class="xp-window">
+        <div class="xp-titlebar">
+            <span>🐾 memory.exe</span>
+            <div class="xp-buttons">
+                <button>─</button>
+                <button>□</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="xp-body">
+            <p>i remember forcing my sims to die in their own pee puddles and feel absolutely zero remorse 😭</p>
+        </div>
+    </div>
+    <div class="zag-img">
+        <img src="./assets/memory/sims.jpg" alt="sims peeing">
+    </div>
+</div>
+
+    </div>
+
+
+    <!-- TASKBAR -->
+    <div class="taskbar">
+        <button class="start-btn">⊞ Start</button>
+        <span class="clock" id="clock"></span>
+    </div>
+
+
+    <script src="./assets/js/shared.js"></script>
+</body>
+</html>

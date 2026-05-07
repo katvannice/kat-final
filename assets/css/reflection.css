@@ -1,0 +1,19 @@
+/* reflection page */
+body {
+    background-image: url('../img/glitterstar.gif');
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.final-line {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.xp-window {
+    max-width: 300px !important;
+}
