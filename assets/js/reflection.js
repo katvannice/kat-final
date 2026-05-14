@@ -6,5 +6,6 @@ function nextPopup() {
     reflectionCurrent++;
     if (reflectionCurrent <= totalPopups) {
         document.getElementById("popup" + reflectionCurrent).style.display = "block";
-    }
-}
+    }}
+    
+window.location.href='index.html'
