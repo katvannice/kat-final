@@ -199,3 +199,40 @@ body {
     background: #ECE9D8;
     padding: 10px;
 }
+
+.zag-img-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 50%;
+}
+
+.zag-img-group .zag-img img {
+    width: 240px;
+    height: 220px;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+
+.zag-img-group .zag-img img.drawing {
+    object-fit: contain !important;
+    background: white;
+    padding: 5px;
+}
+
+.secret-link {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.secret-link:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.secret-link:visited {
+    color: white !important;
+}
